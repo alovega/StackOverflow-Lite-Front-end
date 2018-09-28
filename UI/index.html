@@ -7,6 +7,7 @@
         initial-scale: 1.0, user-scalabe=0"/></meta>
         <script src="scripts/jquery-1.12.2.min.js"></script>
         <script src="scripts/general.js"></script>
+        <script src="scripts/SignupAPI.js"></script>
 </head>
 <body>
   <!-- start nav bar -->
@@ -23,35 +24,33 @@
 </div>
 <!--end of the navbar  -->
   <!--form start  -->
-  <form class="login" method="post">
+  <form class="login" id= "signup" method="post">
   <div class="container">
     <!--page heading  -->
     <h1>Register</h1>
     <p>please fill this form to create an account</p>
   <!--separating line  -->
     <hr>
-  <label for="useremail"><b>User email</b></label><br>
-  <input type="text" name="useremail"required><br>
+  <label for="Email"><b>Email</b></label><br>
+  <input type="text" id="email" placeholder="Enter your email" name="email"required><br>
   <label for="psw"><b>Username</b></label><br>
-  <input type="text" name="username"required><br>
+  <input type="text" id="username" placeholder="Enter Username" name="username"required><br>
   <label for="psw"><b>Password</b></label><br>
-  <input type="password" placeholder="Enter password" required><br>
-  <label for="psw-repeat"><b>Repeat Password</b></label><br>
-  <input type="password" placeholder="Repeat password" required><br>
-
+  <input type="password" id="password" placeholder="Enter password" required><br>
    <p>By creating this account it means you
    agree  to our<a href="#">Terms & Privacy</a>.</p>
    <!--start buttons  -->
    <div class="buttons">
-     <button type="submit" class="register">Register</button>
+     <button type="submit" id="submit" class="register">Register</button>
    </div>
   <!--end buttons  -->
    </div>
    <!--end of the container section -->
 </form>
 <!-- end of form -->
-<div class="footer" style="position:relative;">
+
+<!-- <div class="footer" style="position:relative;">
     <p>@AlwaSite</p>
-</div>
+</div> -->
 </body>
 </html>
