@@ -1,7 +1,8 @@
-#StackOverflow-lite
+# StackOverflow-lite
 This is contains the project frontend templates   that allows a user to create a questions and add answers to  question and also contains all the login and signup templates
-#gh-pages link
-https://alovega.github.io/StackOverflow-Lite/UI
+
+# gh-pages link 
+[click here to view](https://alovega.github.io/StackOverflow-Lite/UI)
 
 ## Prerequisites
     I prefer you have vs code installed in your machine
